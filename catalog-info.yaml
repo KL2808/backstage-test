@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "backstage-test"
+  description: "This Repo was created with a custom Template through self-hosted Backstage"
+  annotations:
+    github.com/project-slug: KL2808/backstage-test
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "Kevin L"
